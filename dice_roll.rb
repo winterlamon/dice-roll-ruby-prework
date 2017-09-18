@@ -1,6 +1,3 @@
 def roll
-  dice_side = [1..6]
-  rand(dice_side)
+  rand(1..6)
 end
-
-# rand(1..6)
